@@ -9,18 +9,21 @@ private:
 public:
 	int id;
 	string nama;
-	
+
 	void setID();
 	void printAll();
 
-	static void Nim(int pnim) {nim = pnim}
+	static void Nim(int pnim) { nim = pnim }
 	static int getNim() { return nim; }
 
 	mahasiswa(string pnama) {
 		nama = pnama;
 		setID();
 	}
-}
+};
+
+int mahasiswa::nim = 0;
+
 
 int main()
 {

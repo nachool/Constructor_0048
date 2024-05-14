@@ -18,7 +18,7 @@ public:
 
 };
 
-
+int mahasiswa::nim = 113;
 
 int main()
 {

@@ -15,6 +15,11 @@ public:
 
 	static void Nim(int pnim) {nim = pnim}
 	static int getNim() { return nim; }
+
+	mahasiswa(string pnama) {
+		nama = pnama;
+		setID();
+	}
 }
 
 int main()

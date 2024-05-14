@@ -13,7 +13,7 @@ public:
 	void setID();
 	void printAll();
 
-	static void Nim(int pnim) { nim = pnim; }
+	static void setNim(int pnim) { nim = pnim; }
 	static int getNim() { return nim; }
 
 	mahasiswa(string pnama) {
@@ -53,7 +53,7 @@ int main()
 
 	cout << "Akses dari luar object = " << mahasiswa::getNim() << endl; // Mengakses nim melalui static member function "getNim"
 
-	return 0;
+	return 0;
 
 }
 

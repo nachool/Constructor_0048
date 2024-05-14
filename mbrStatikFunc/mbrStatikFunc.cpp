@@ -37,9 +37,11 @@ void mahasiswa::printAll()
 }
 
 
-
 int main()
 {
-   
+	mahasiswa mhs1("Sri Sultan");
+	mahasiswa mhs2("Budi Santoso");
+
+
 }
 
